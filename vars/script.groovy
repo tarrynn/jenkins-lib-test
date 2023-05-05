@@ -1,5 +1,5 @@
 import com.tarrynn.jenkins.common.Greeter
 
-def call(String name = 'human') {
+def customMethod(String name = 'human') {
   echo "Hello, ${name}."
 }
